@@ -1,0 +1,1 @@
+{"version":3,"sources":["ErrorCodesEnum.ts"],"names":["ErrorCodesEnum"],"mappings":";;;;;;IAAYA,c;;;WAAAA,c;AAAAA,EAAAA,c;AAAAA,EAAAA,c;GAAAA,c,8BAAAA,c","sourcesContent":["export enum ErrorCodesEnum {\n  E_UNKNOWN = 'E_UNKNOWN',\n  E_PAYMENT_CANCELLED = 'E_PAYMENT_CANCELLED',\n}\n"]}
