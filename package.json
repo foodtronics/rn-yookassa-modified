@@ -1,6 +1,7 @@
 {
   "name": "rn-yookassa",
-  "version": "1.0.7",
+  "version": "1.0.0",
+  "private": true,
   "description": "React Native YooKassa Module SDK Integration.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -31,27 +32,7 @@
     "pods": "cd example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods"
   },
-  "keywords": [
-    "react-native",
-    "yookassa",
-    "yoomoney",
-    "sdk",
-    "sberpay",
-    "yandexpay",
-    "yandexmoney",
-    "ios",
-    "android"
-  ],
-  "repository": "https://github.com/kurovskyi/rn-yookassa",
-  "author": "Dmytro Kurovskyi <dmytro.kurovskyi@gmail.com> (https://github.com/kurovskyi)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kurovskyi/rn-yookassa/issues"
-  },
-  "homepage": "https://github.com/kurovskyi/rn-yookassa#readme",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
+  "author": "Fibbee",
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
@@ -88,23 +69,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
-    "npm": {
-      "publish": true
-    },
-    "github": {
-      "release": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
-    }
   },
   "eslintConfig": {
     "root": true,
